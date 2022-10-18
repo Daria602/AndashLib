@@ -1,0 +1,41 @@
+:root {
+    --white: #FFFFFF;
+    --neutral-dark: #403E3E;
+    --neutral: #595757;
+    --neutral-light: #73706F;
+    --neutral-lightest: #A6A2A1;
+}
+
+/* Color: textColor */
+.clr-text-neutral-dark {
+    color: var(--neutral-dark);
+}
+.clr-text-neutral {
+    color: var(--neutral);
+}
+.clr-text-neutral-light {
+    color: var(--neutral-light);
+}
+.clr-text-neutral-lightest {
+    color: var(--neutral-lightest);
+}
+.clr-text-white {
+    color: var(--white);
+}
+
+/* Color: backgroundColor */
+.clr-background-neutral-dark {
+    background-color: var(--neutral-dark);
+}
+.clr-background-neutral {
+    background-color: var(--neutral);
+}
+.clr-background-neutral-light {
+    background-color: var(--neutral-light);
+}
+.clr-background-neutral-lightest {
+    background-color: var(--neutral-lightest);
+}
+.clr-background-white {
+    background-color: var(--white);
+}

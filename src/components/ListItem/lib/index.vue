@@ -1,8 +1,8 @@
 <template>
-    <div> 
-        <span
-            v-color="{textColor: 'red'}"
-        >
+    <div
+        v-color="{textColor: 'white', backgroundColor: 'neutral'}"
+    > 
+        <span>
             {{ item }} 
         </span>
     </div>

@@ -1,6 +1,7 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <ListItem :item="'Andryusha'" />
+  <ListItem item="First List Item" />
+  <ListItem item="Second List Item" />
 </template>
 
 <script>
@@ -23,4 +24,7 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+</style>
+
+<style src="../public/style/global.css">
 </style>

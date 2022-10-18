@@ -1,11 +1,9 @@
-// eslint-disable-next-line
-const color = (el, binding) => {
-    el.style.color = binding.value.textColor;
-}
+import Color from '../../../directives/Color/lib/script.js';
+
 
 export default {
     directives: {
-        color: color
+        color: Color
     },
     props: {
         item: {
