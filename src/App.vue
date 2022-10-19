@@ -1,16 +1,15 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <ListItem item="First List Item" />
-  <ListItem item="Second List Item" />
+  <List :items="[{label: 'First List Item'}, {label: 'Second List Item'}]"/>
 </template>
 
 <script>
-import ListItem from './components/ListItem/lib/index.vue';
+import List from './components/List/lib/index.vue';
 
 export default {
   name: 'App',
   components: {
-    ListItem
+    List
   }
 }
 </script>

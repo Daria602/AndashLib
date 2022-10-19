@@ -2,11 +2,10 @@
     <div
         v-color="{textColor: 'white', backgroundColor: 'neutral'}"
     > 
-        <span>
-            {{ item }} 
-        </span>
+        <slot name="item"></slot>
     </div>
 </template>
 
-<script src="./script.js">
+<script setup>
+import vColor from '../../../directives/Color/lib/script.js';
 </script>
