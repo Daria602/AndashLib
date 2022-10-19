@@ -3,15 +3,8 @@
   <List :items="[{label: 'First List Item'}, {label: 'Second List Item'}]"/>
 </template>
 
-<script>
+<script setup>
 import List from './components/List/lib/index.vue';
-
-export default {
-  name: 'App',
-  components: {
-    List
-  }
-}
 </script>
 
 <style>
